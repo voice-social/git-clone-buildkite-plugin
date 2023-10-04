@@ -1,0 +1,9 @@
+name: Git Clone
+description: Clones a git repo
+author: https://github.com/voice-social/git-clone-buildkite-plugin
+requirements: []
+configuration:
+  properties:
+    repository:
+      type: string
+  additionalProperties: false

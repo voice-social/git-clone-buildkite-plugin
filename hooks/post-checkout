@@ -1,0 +1,8 @@
+#!/bin/bash
+set -euo pipefail
+
+REPOSITORY="$BUILDKITE_PLUGIN_GIT_CLONE_REPOSITORY"
+
+echo "Cloning ${REPOSITORY}"
+
+git clone $REPOSITORY
